@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="image.jpg" alt="college" class="bg">
+   <div class="container">
+       <h1>Welcome to CSJM</h1>
+       <p>Enter Your Detail </p>
+       <p class="submitmsg">Thanks for submiting Form</p>
+
+       <form action="index.php" method="post">
+           <input type="text "name="name"id ="name" placeholder="Enter Your Name">
+           <input type="text "name="age" id ="age" placeholder="Enter YourAge">
+           <input type="text "name="gender" id="gender" placeholder="Enter Your Gender">
+           <input type="email "name="email" id="email" placeholder="Enter Your Email">
+           <input type="phone "name="phone" id="phone" placeholder="Enter Your Contact">
+           <textarea name="desc" id="desc" cols="30" placeholder="Enter Your Name" rows="10">
+
+           </textarea>
+       <button class="btn">Submit</button>
+       
+       </form>
+   </div> 
+   <script src="index.js"></script>
+   <!--INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'textname', '20', 'male', 'singh@gmail.com', '8080203036', 'This is my first database in php', current_timestamp());-->
+</body>
+</html>
